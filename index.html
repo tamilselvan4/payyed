@@ -17,7 +17,7 @@
     <div class="dashboard_div">
             <header class="header_div">
                 <div class="header_left_div">
-                    <img src="icons/payyed_logo.png" alt="Payyed" height="80px">
+                    <img src="icons/payyed_logo.png" alt="Payyed" height="70px">
                     <div class="menu_div">
                         <img class="menu_icon" src="icons/menu_icon.png" alt="profile" height="25px" >
                     <ul class="hidden_menu">
@@ -53,9 +53,24 @@
                         <option value="English">HI</option>
                         <option value="English">TE</option>
                     </select>
-                    <img class="img" src="icons/bell.png" alt="Notification" width="20px">
+                    <div class="notification_div">
+                        <img class="img" src="icons/bell.png" alt="Notification" height="20px">
+                        <ul class="hidden_notification">
+                            <div class="dropdown_top"><li><p>Notificaion(3)</p></li></div>
+                            <div class="profile_details_dropdown_head">
+                                <li><a class="profile_details_dropdown" href="">My profile</a></li>
+                                <li><a class="profile_details_dropdown" href="">Security</a></li>
+                                <li><a class="profile_details_dropdown" href="">Payment Methods</a></li>
+                                <li><a class="profile_details_dropdown" href="">Notification</a></li>
+                            </div>
+                            <div class="profile_details_dropdown_head">
+                                <li><a class="profile_details_dropdown" href="">Need Help</a></li>
+                                <li><a class="profile_details_dropdown" href="">Sign Out</a></li>
+                            </div>
+                        </ul>
+                    </div>
                     <div class="img_div">
-                        <img class="profile_img" id="profile_img" src="icons/profile.png" alt="profile" width="30px" height="30px" >
+                        <img class="profile_img" id="profile_img" src="icons/profile.png" alt="profile" >
                     <ul class="hidden_list">
                         <div class="dropdown_top"><li><p>Hi, Smith Rhodes</p></li></div>
                         <div class="profile_details_dropdown_head">
@@ -71,8 +86,8 @@
                     </ul>
                     </div>
                 </div>
-                
             </header>
+            <img class="stable_setting_icon" src="icons/settings_icon.png" alt="">
         <div class="dashboard_main">
             <div class="dashboard_left_div">
                 <div class="dashboard_profile_div">                   
@@ -154,7 +169,7 @@
                         <h3 class="right_div_heading_text">Recent Activity</h3>
                     </div>
                     <div class="recent_activity_table">
-                        <table style="width: 100%;">
+                        <table style="width: 100%;" class="recent_activity_table">
                             <tr >
                                 <th class="recent_activity_table_date_head">Date</th>
                                 <th class="recent_activity_table_des_head">Description</th>

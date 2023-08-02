@@ -1,3 +1,11 @@
+@media screen and (max-width: 1200px){
+  .dashboard_left_div{
+    margin-left: 40px;
+  }
+  .dashboard_right_div{
+    margin-right: 40px;
+  }
+}
 @media screen and (max-width: 1000px) {
     .dashboard_main{
       display: flex;
@@ -64,11 +72,25 @@
 .dashboard_left_div, .dashboard_right_div{
   margin: 0px;
 }
+.recent_activity_table_status_head, .status_icons{
+  display: none;
+}
+.recent_activity_table{
+  padding: 0px 30px;
+}
+.right_div_heading_text{
+  padding-left: 20px;
+}
+.recent_activity_table_des_head, .recent_activity_table_date_head{
+  padding-left: 5px;
+}
 
 }
-@media screen and (max-width: 260px){
+@media screen and (max-width: 290px){
   .date_hidden{
     display: none;
   }
-  
+  .menu_icon{
+    padding-left: 2px;
+  }
 }

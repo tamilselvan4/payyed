@@ -12,21 +12,41 @@
     <link rel="stylesheet" href="style/footer.css">
     <link rel="stylesheet" href="style/edit.css">
     <link rel="stylesheet" href="style/media_query.css">
+    <link rel="stylesheet" href="style/hover.css">
 </head>
 <body>
     <div class="dashboard_div">
         <div class="heading_div">
             <header class="header_div">
                 <div class="header_left_div">
-                    <img src="icons/payyed_logo.png" alt="Payyed" height="80px">
-                    <a class="header_text" href="index.html">DASHBOARD</a>
-                    <a class="header_text" href="transaction.html">TRANSACTIONS</a>
-                    <a class="header_text" href="dashboard.html">SEND/REQUEST</a>
-                    <a class="header_text" href="transaction.html">HELP</a>
-                    <a class="header_text" href="dashboard.html">FEATURES</a>
-                    <select class="header_text" name="features" id="features" style="margin-top: 25px; padding-left: 0px;"></select>
-                    <a class="header_text" href="transaction.html">PAGES</a>
-                    <select class="header_text" name="features" id="features" style="margin-top: 25px; padding-left: 0px;"></select>
+                    <img src="icons/payyed_logo.png" alt="Payyed" height="70px">
+                    <div class="menu_div">
+                        <img class="menu_icon" src="icons/menu_icon.png" alt="profile" height="25px" >
+                    <ul class="hidden_menu">
+                        <li><a class="header_text" href="index.html">DASHBOARD</a></li>
+                        <li><a class="header_text" href="transaction.html">TRANSACTIONS</a></li>
+                        <li><a class="header_text" href="dashboard.html">SEND/REQUEST</a></li>
+                        <li><a class="header_text" href="transaction.html">HELP</a></li>
+                        <li><a class="header_text" href="dashboard.html">FEATURES</a>
+                            <select class="header_text" name="features" id="features" ></select>
+                        </li>
+                        
+                        <li>
+                            <a class="header_text" href="transaction.html">PAGES</a>
+                        <select class="header_text" name="pages" id="pages" ></select>
+                        </li>
+                    </ul>
+                    </div>
+                    <div class="top_nav_div">
+                        <a class="header_text" href="index.html">DASHBOARD</a>
+                        <a class="header_text" href="transaction.html">TRANSACTIONS</a>
+                        <a class="header_text" href="dashboard.html">SEND/REQUEST</a>
+                        <a class="header_text" href="transaction.html">HELP</a>
+                        <a class="header_text" href="dashboard.html">FEATURES</a>
+                        <select class="header_text" name="features" id="features" ></select>
+                        <a class="header_text" href="transaction.html">PAGES</a>
+                        <select class="header_text" name="pages" id="pages" ></select>
+                    </div>
                 </div>
                 <div class="header_right_div">
                     <select name="select" id="en">
@@ -35,14 +55,44 @@
                         <option value="English">HI</option>
                         <option value="English">TE</option>
                     </select>
-                    <img class="img" src="icons/bell.png" alt="Notification" width="20px">
-                    <img class="profile_img" id="profile_img" src="icons/profile.png" alt="profile" width="30px" height="30px" >
+                    <div class="notification_div">
+                        <img class="img" src="icons/bell.png" alt="Notification" height="20px">
+                        <ul class="hidden_notification">
+                            <div class="dropdown_top"><li><p>Notificaion(3)</p></li></div>
+                            <div class="profile_details_dropdown_head">
+                                <li><a class="profile_details_dropdown" href="">My profile</a></li>
+                                <li><a class="profile_details_dropdown" href="">Security</a></li>
+                                <li><a class="profile_details_dropdown" href="">Payment Methods</a></li>
+                                <li><a class="profile_details_dropdown" href="">Notification</a></li>
+                            </div>
+                            <div class="profile_details_dropdown_head">
+                                <li><a class="profile_details_dropdown" href="">Need Help</a></li>
+                                <li><a class="profile_details_dropdown" href="">Sign Out</a></li>
+                            </div>
+                        </ul>
+                    </div>
+                    <div class="img_div">
+                        <img class="profile_img" id="profile_img" src="icons/profile.png" alt="profile" >
+                    <ul class="hidden_list">
+                        <div class="dropdown_top"><li><p>Hi, Smith Rhodes</p></li></div>
+                        <div class="profile_details_dropdown_head">
+                            <li><a class="profile_details_dropdown" href="">My profile</a></li>
+                            <li><a class="profile_details_dropdown" href="">Security</a></li>
+                            <li><a class="profile_details_dropdown" href="">Payment Methods</a></li>
+                            <li><a class="profile_details_dropdown" href="">Notification</a></li>
+                        </div>
+                        <div class="profile_details_dropdown_head">
+                            <li><a class="profile_details_dropdown" href="">Need Help</a></li>
+                            <li><a class="profile_details_dropdown" href="">Sign Out</a></li>
+                        </div>
+                    </ul>
+                    </div>
                 </div>
             </header>
             <header class="edit_page_header">
                 <p class="header2_item select_item">Account</p>
                 <p class="header2_item">Security</p>
-                <p class="header2_item">Pyament Notification</p>
+                <p class="header2_item">Payment Method</p>
                 <p class="header2_item">Notificaion</p>
             </header>
         </div>
