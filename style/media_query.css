@@ -1,0 +1,74 @@
+@media screen and (max-width: 1000px) {
+    .dashboard_main{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .dashboard_right_div, .dashboard_left_div{
+      margin: 0px 80px;
+    }
+    .top_nav_div{
+      display: none;
+    }
+    .menu_div{
+      display: flex;
+    }
+    .menu_div:hover .hidden_menu{
+      display: inline;
+      top: 50px;
+      left: 0px;
+    }
+    
+    
+  }
+
+@media screen and (max-width: 700px){
+  .profile_completeness_status_div{
+    flex-direction: column;
+  }
+  .dashboard_right_div, .dashboard_left_div{
+    margin: 0px;
+  }
+  .header_div{
+    padding: 0px;
+    padding-right: 10px;
+  }
+  .profile_completeness_status{
+    padding: 24px 0px;
+  }
+  
+}
+@media screen and (max-width: 800px){
+  .footer_div_top, .footer_div_bottom{
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  .footer_left_top, .footer_left_bottom{
+    margin-bottom: 20px;
+  }
+  .dashboard_left_div, .dashboard_right_div{
+    margin: 0px 40px;
+  }
+  
+
+}
+@media screen and (max-width: 500px){
+.status_hidden{
+  display: none;
+}
+
+.dashboard_left_div{
+  padding: 0px 12px;
+}
+.dashboard_left_div, .dashboard_right_div{
+  margin: 0px;
+}
+
+}
+@media screen and (max-width: 260px){
+  .date_hidden{
+    display: none;
+  }
+  
+}

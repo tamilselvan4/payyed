@@ -1,0 +1,144 @@
+.heading_div{
+    height: 70px;
+
+}
+header{
+    margin: 0px;
+    padding: 0px;
+
+}
+.header_div{
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 40px;
+    background-color: white;
+
+}
+.header_left_div{
+    max-width: 800px;
+    /* width: 100%; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: rgb(128, 128, 255); */
+}
+.menu_div{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    display: none;
+}
+.menu_div:hover .hidden_menu{
+    display: flex;
+    flex-direction: column;
+    top: 50px;
+    left: 0px;
+    opacity: 1;
+    width: 100%;
+  }
+.menu_icon{
+    /* display: none; */
+    padding-left: 20px;
+}
+.hidden_menu{
+    opacity: 0;
+    position: absolute;
+    background-color: white;
+    border: 1px solid lightgray;
+    padding: 0;
+    width: 220px;
+    top: 30px;
+    right: 0;
+    display: none;
+}
+.top_nav_div{
+    display: flex;
+}
+.header_text{
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0px 10px;
+}
+element.style{
+    margin-top: 0px;
+}
+.header_right_div{
+    width: 125px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: rgb(255, 151, 128); */
+}
+
+a:hover{
+    color: rgb(0, 198, 0);
+}
+.header_right{
+    float: right;
+    margin: 25px;
+}
+select{
+    border: none;
+    margin: 0px !important;
+    padding: 0 !important;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#profile_img{
+    height: 35px;
+    width: 35px;
+    padding: 0px;
+    border-radius: 20px;
+}
+.img_div{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.top_nav_hidden_div{
+    display: flex;
+}
+ul{
+    list-style: none;
+}
+.hidden_list{
+    opacity: 0;
+    position: absolute;
+    background-color: white;
+    border: 1px solid lightgray;
+    padding: 0;
+    width: 220px;
+    top: 30px;
+    right: 0;
+    display: none;
+}
+.dropdown_top{
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profile_details_dropdown_head{
+    border-top: 1px solid lightgray;
+}
+
+li{
+    margin: 20px;
+}
+
+.img_div:hover .hidden_list{
+    transition: 0.2;
+    opacity: 1;
+    display: inline;
+    top: 50px;
+}
+.profile_details_dropdown:hover{
+    transition: 0.1s;
+    padding-left: 6px;
+}

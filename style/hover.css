@@ -1,0 +1,38 @@
+ul{
+    list-style: none;
+}
+.hidden_list{
+    opacity: 0.5;
+    position: absolute;
+    background-color: white;
+    border: 1px solid lightgray;
+    padding: 0;
+    width: 220px;
+    top: 60px;
+    right: 0;
+}
+.dropdown_top{
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profile_details_dropdown_head{
+    border-top: 1px solid lightgray;
+}
+.profile_details_dropdown{
+    text-decoration: none;
+    box-sizing: border-box;
+    font-size: 12px;
+    color: black;
+}
+li{
+    margin: 20px;
+}
+.hidden_list:hover{
+    opacity: 1;
+}
+.profile_hide:active .hidden_list{
+    opacity: 1;
+    display: inline;
+}
