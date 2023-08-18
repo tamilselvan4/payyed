@@ -1,10 +1,11 @@
-.dashboard_main{
+.dashboard-main {
     display: flex;
     flex-direction: row;
     margin-top: 70px;
     /* height: calc(100% - 60px); */
 }
-.edit_page_header{
+
+.edit-page-header {
     height: 50px;
     display: flex;
     justify-content: center;
@@ -12,16 +13,19 @@
     background-color: #2dbe60;
     overflow: auto;
 }
-.header2_item{
+
+.header2-item {
     padding: 0px 10px;
 }
-.select_item{
+
+.select-item {
     display: flex;
     height: 100%;
     align-items: center;
     background-color: #2ab55a;
 }
-.edit_right_div{
+
+.edit-right-div {
     background-color: rgb(237, 237, 237);
     margin: 10px;
     margin-right: 30px;
@@ -29,9 +33,9 @@
     height: 100%;
     /* display: flex; */
     border-radius: 5px;
-    
 }
-.edit_right_layout{
+
+.edit-right-layout {
     background-color: white;
     width: 100%;
     padding-bottom: 40px;
@@ -41,27 +45,30 @@
     justify-content: space-between;
     border-radius: 6px;
 }
-.edit_details_head{
+
+.edit-details-head {
     /* width: 100%; */
     padding: 20px;
     display: flex;
     justify-content: space-between;
     border-bottom: solid 1px rgb(233, 233, 233);
-    
 }
-.edit_details_head_text{
+
+.edit-details-head-text {
     font-weight: 400;
     font-size: 20px;
 }
-.edit_details_edit_text{
-    
+
+.edit-details-edit-text {
     font-size: small;
     color: #2dbe60;
 }
-.edit_details_name{
+
+.edit-details-name {
     display: flex;
 }
-.edit_details_data_left{
+
+.edit-details-data-left {
     margin-top:20px;
     padding-right: 10px;
     flex: 1;
@@ -69,11 +76,13 @@
     justify-content: end;
     color: #707070;
 }
-.edit_details_data_right{
-    margin-top:20px ;
+
+.edit-details-data-right {
+    margin-top:20px ; 
     flex: 3;
 }
-.green_bg{
+
+.green-bg {
     padding: 2px 5px;
     width: fit-content;
     background-color: #2dbe60;

@@ -1,17 +1,20 @@
-body{
+body {
     margin: 0px;
     padding: 0px;
     font-family: 'Rubik', sans-serif;
     background-color: rgb(237, 237, 237);
 }
-p{
+
+p {
     margin: 0px;
     padding: 0px;
     line-height: 1.8;
 }
-h2{
+
+h2 {
     margin: 0;
 }
-h3{
+
+h3 {
     margin: 0;
 }
