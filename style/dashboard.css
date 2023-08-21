@@ -17,16 +17,15 @@
 .dashboard-main {
     display: flex;
     flex-direction: row;
-    padding: 24px 0px;
+    padding: 24px 140px;
 }
 
 .dashboard-left-div {
-    margin-left: 80px;
     padding: 10px;
 }
 
 .dashboard-profile-div {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     background-color: rgb(255, 255, 255);
     flex: 1;
     height: 250px;
@@ -35,12 +34,55 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
 }
 
 .profile-img1 {
     border-radius: 50px;
     height: 100px;
     width: 100px;
+}
+
+.tooltip-edit-img, .tooltip-edit-img1 {
+    visibility: hidden;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 10px;
+    position: absolute;
+    z-index: 1;
+    top:175px;
+    left: 230px;
+    transition: 0.1s;
+}
+
+.tooltip-edit-img1 {
+    top: 240px;
+}
+
+.tooltip-div:hover .tooltip-edit-img {
+    visibility: visible;
+}
+.tooltip-div:hover .tooltip-edit-img1 {
+    visibility: visible;
+}
+
+.edit-profile, .edit-page-edit-profile {
+    height: 35px;
+    visibility: visible;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+    top:208px;
+    left: 300px;
+}
+
+.edit-page-edit-profile {
+    top: 275px
 }
 
 .user-name {
@@ -57,7 +99,7 @@
     display: inline-block;
 }
 
-.tooltiptext {
+.tooltiptext, .tooltiptext1 {
     visibility: hidden;
     background-color: black;
     color: #fff;
@@ -66,11 +108,22 @@
     padding: 5px 10px;
     position: absolute;
     z-index: 1;
+    top:260px;
+    left: 240px;
+    transition: 0.1s;
 }
 
-/* .tooltip:hover .tooltiptext{
+.tooltiptext1 {
+    top: 320px;
+}
+
+.tooltip:hover .tooltiptext{
     visibility: visible;
-} */
+}
+
+.tooltip:hover .tooltiptext1{
+    visibility: visible;
+}
 
 .edit-icon {
     height: 20px;   
@@ -80,13 +133,14 @@
 }
 
 .dashboard-amount-div {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     background-color: rgb(255, 255, 255);
     flex: 1;
     height: 250px;
     border-radius: 6px;
     display: flex;
     flex-direction: column;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
 }
 
 .dashboard-amount-top-div {
@@ -119,7 +173,7 @@
 
 .available-balance-text { 
     color: gray;
-    font-size: medium;
+    font-size: small;
     padding-bottom: 10px;
 }
 
@@ -127,6 +181,7 @@
     color: #2dbe60;
     font-size: small;
     float: left;
+    cursor: pointer;
 }
 
 .float-right {
@@ -135,7 +190,7 @@
 
 .dashboard-need-help-div {
     padding: 16px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     background-color: rgb(255, 255, 255);
     flex: 1;
     height: 250px;
@@ -143,6 +198,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
 }
 
 .need-help-icon-div {
@@ -180,12 +236,16 @@ h3 {
     font-weight: 700;
     border: none;
     border-radius: 4px;
+    transition: 0.5s;
+}
+
+.chat-with-us-button:hover {
+    background-color: #2faa5a;
 }
 
 .dashboard-right-div {
     padding: 10px;
-    background-color: rgb(237, 237, 237);
-    margin-right: 80px;
+    /* background-color: rgb(237, 237, 237); */
     flex: 3;
     height: 100%;
     display: inline-block;
@@ -193,7 +253,7 @@ h3 {
 
 .profile-completeness-div {
     min-width: 40px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     background-color: rgb(255, 255, 255);
     height: 100%;
     border-radius: 6px;
@@ -201,6 +261,7 @@ h3 {
     display: flex;
     flex-direction: column;
     border: solid 1px white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
 }
 
 .profile-completeness-head-div, .recent-activity-head-div {
@@ -210,6 +271,8 @@ h3 {
     display: flex;
     align-items: center;
     padding-left: 15px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
 }
 
 .profile-completeness-head-div {
@@ -304,6 +367,7 @@ h3 {
     margin-bottom: 10px;
     background-color: rgb(254, 254, 254);
     border-radius: 6px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
 }
 
 .recent-activity-table {
@@ -319,8 +383,12 @@ table {
     border-bottom: solid 1px rgb(238, 238, 238);
 }
 
+.table-row:hover {
+    background-color: #f1f5f6;
+}
+
 th {
-    background-color: #dfdfdf;
+    background-color: #f1f5f6;
     text-align: left;
     padding: 10px 0px;
     font-size: medium;

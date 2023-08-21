@@ -17,8 +17,12 @@
     color: black;
     text-align: center;
     text-decoration: none;
-    font-size: large;
+    font-size: small;
     padding: 0px 5px;
+}
+
+.footer-left-top a:hover {
+    color: #2dbe60;
 }
 
 .footer-right-top button {
@@ -27,7 +31,7 @@
 }
 
 .footer-right-top img {
-    height: 20px;
+    height: 18px;
 }
 
 .footer-div-bottom {
@@ -37,19 +41,21 @@
     justify-content: space-between;
 }
 
-.copyright-link {
+.copyright-text a {
     font-size: small;
     text-decoration: none;
-    color: #2dbe60;
+    color: #2dbe60 !important;
     cursor: pointer;
 }
 
 .copyright-text {
+    color: #545454;
     font-size: small;
     padding-left: 5px;
 }
 
 .footer-div-bottom a {
+    font-size: small;
     padding: 0px 5px;
     text-decoration: none;
     color: #545454;

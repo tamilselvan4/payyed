@@ -1,22 +1,82 @@
-@media screen and (max-width: 1200px) {
-  .dashboard-left-div {
-    margin-left: 40px;
+@media screen and (max-width: 1360px) {
+  .profile-completeness-status {
+    margin: 20px 10px;
+  }
+}
+
+@media screen and (max-width: 1260px) {
+  .dashboard-main {
+    padding: 24px 100px;
   }
 
-  .dashboard-right-div {
-    margin-right: 40px;
+  .header-div {
+    padding: 0px 110px;
+  }
+
+  .edit-profile {
+    top:200px;
+    left: 265px; 
+  }
+
+  .notification-number {
+    top:19px;
+    right: 158px;
+  }
+
+  .tooltip-edit-img, .tooltip-edit-img1 {
+    left: 200px;
+  }
+
+  .tooltiptext, .tooltiptext1 {
+    left: 200px;
   }
 
 }
-@media screen and (max-width: 1000px) {
+
+@media screen and (max-width: 1100px) {
+  .dashboard-main {
+    padding: 24px 20px;
+  }
+
+  .header-div {
+    padding: 0px 30px;
+  }
+
+  .edit-profile {
+    top:200px;
+    left: 185px;
+  }
+
+  .notification-number {
+    top:19px;
+    right: 80px;
+  }
+
+  .tooltip-edit-img, .tooltip-edit-img1 {
+    left: 110px;
+  }
+
+  .tooltiptext, .tooltiptext1 {
+    left: 118px;
+  }
+
+  .hidden-list1 {
+    margin-right: 30px;
+  }
+
+}
+
+@media screen and (max-width: 900px) {
     .dashboard-main {
       display: flex;
       flex-direction: column;
       justify-content: center;
     }
 
-    .dashboard-right-div, .dashboard-left-div {
-      margin: 0px 80px;
+    .edit-profile, .edit-page-edit-profile {
+      display: none;
+      top:200px;
+      left: 555px;
     }
 
     .top-nav-div {
@@ -24,6 +84,7 @@
     }
 
     .menu-div {
+      height: 75px;
       display: flex;
     }
 
@@ -32,21 +93,28 @@
       top: 50px;
       left: 0px;
     }
+
+    .tooltip-edit-img, .tooltip-edit-img1 {
+      display: none;
+    }
+
+    .tooltiptext, .tooltiptext1 {
+      display: none;
+    }
     
   }
 
 @media screen and (max-width: 700px) {
+  .dashboard-main {
+    padding: 24px 50px;
+  }
+
   .profile-completeness-status-div {
     flex-direction: column;
   }
 
   .dashboard-right-div, .dashboard-left-div {
     margin: 0px;
-  }
-
-  .header-div {
-    padding: 0px;
-    padding-right: 10px;
   }
 
   .profile-completeness-status {
@@ -70,6 +138,10 @@
   
 }
 @media screen and (max-width: 500px) {
+  .dashboard-main {
+    padding: 24px 20px;
+  }
+
   .status-hidden {
     display: none;
   }
@@ -86,8 +158,9 @@
     display: none;
   }
 
-  .recent-activity-table {
-    padding: 0px 30px;
+  .header-div {
+    padding: 0px;
+    padding-right: 10px;
   }
 
   .right-div-heading-text {
@@ -97,15 +170,35 @@
   .recent-activity-table-des-head, .recent-activity-table-date-head {
     padding-left: 5px;
   }
+  .notification-number {
+    top:19px;
+    right: 60px;
+  }
 
 }
 @media screen and (max-width: 290px) {
+  .header-div, .edit-page-header {
+    min-width: 310px;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  .dashboard-main {
+    padding: 24px 10px;
+    min-width: 300px;
+  }
+
   .date-hidden {
     display: none;
   }
 
   .menu-icon {
     padding-left: 2px;
+  }
+  
+  .notification-number {
+    top:19px;
+    right: 30px;
   }
 
 }

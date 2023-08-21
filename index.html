@@ -48,22 +48,22 @@
                 </div>
                 <div class="header-right-div">
                     <div class="select-lang">
-                        En >
-                        <ul class="hidden-list">
+                        En <select name="" id=""></select>
+                        <ul class="hidden-list1">
                         <div class="profile-details-dropdown-head">
-                            <li><a href="">My profile</a></li>
-                            <li><a href="">Security</a></li>
-                            <li><a href="">Payment Methods</a></li>
-                            <li><a href="">Notification</a></li>
-                            <li><a href="">Need Help</a></li>
-                            <li><a href="">Sign Out</a></li>
+                            <li><a href="">English</a></li>
+                            <li><a href="">Tamil</a></li>
+                            <li><a href="">Telugu</a></li>
+                            <li><a href="">Malayalam</a></li>
+                            <li><a href="">French</a></li>
                         </div>
                     </ul>
                     </div>
                     <div class="notification-div">
                         <img class="img-notifi" src="icons/bell.png" alt="Notification">
+                        <span class="notification-number">3</span>
                         <ul class="hidden-notification">
-                            <div class="dropdown_top"><li><p>Notificaion(3)</p></li></div>
+                            <div class="dropdown-top"><li><p>Notificaion(3)</p></li></div>
                             <div class="profile-details-dropdown-head">
                                 <div class="notifications">
                                     <img src="icons/bell.png" alt="bell" class="notification-bell-icon">
@@ -93,7 +93,7 @@
                         </ul>
                     </div>
                     <div class="img-div">
-                        <img class="profile-img" id="profile-img" src="icons/profile.png" alt="profile" >
+                        <img class="profile-img" id="profile-img" src="icons/profile_thumb.jpg" alt="profile" >
                     <ul class="hidden-list">
                         <div class="dropdown-top"><li><p>Hi, Smith Rhodes</p></li></div>
                         <div class="profile-details-dropdown-head">
@@ -113,13 +113,18 @@
             <img class="stable-setting-icon" src="icons/settings_icon.png" alt="">
         <div class="dashboard-main">
             <div class="dashboard-left-div">
-                <div class="dashboard-profile-div">                   
-                        <img class="profile-img1" src="icons/profile.png" alt="profile">
+                <div class="dashboard-profile-div">
+                    <img class="profile-img1" src="icons/profile_thumb.jpg" alt="profile">               
+                        <div class="tooltip-div">
+                            <span class="tooltip-edit-img">Change Profile Picture</span>
+                            <img src="icons/camera_icon.png" alt="camera" class="edit-profile">
+                        </div>
+                        
                         <p class="user-name">Hello, Smith Rhodes</p>
                         <div class="tooltip">
                             <span class="tooltiptext">Edit Profile</span>
                             <button id="edit-button" onclick = "window.location.href='edit.html';"> 
-                                <img class="edit-icon" src="icons/edit_icon.png" alt="edit-icon" height="20px">
+                                <img class="edit-icon" src="icons/edit_icon.png" alt="edit-icon">
                             </button>
                         </div>
                 </div>
@@ -374,7 +379,7 @@
             </div>
             <div class="footer-div-bottom">
                 <div>
-                    <p class="copuright-text">Copyright &#169; 2022 <a class="copyright-link" href="index.html">Payyed</a>. All Rights Reserved.</p>
+                    <p class="copyright-text">Copyright &#169; 2022 <a class="copyright-link" href="index.html">Payyed</a>. All Rights Reserved.</p>
                 </div>
                 <div>
                     <a href="">Security</a>

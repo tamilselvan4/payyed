@@ -19,71 +19,94 @@
         <div class="heading-div">
             <header class="header-div">
                 <div class="header-left-div">
-                    <img src="icons/payyed_logo.png" alt="Payyed" height="70px">
+                    <img class="payyed-logo" src="icons/payyed_logo.png" alt="Payyed">
                     <div class="menu-div">
-                        <img class="menu-icon" src="icons/menu_icon.png" alt="profile" height="25px" >
-                    <ul class="hidden-menu">
-                        <li><a class="header-text" href="index.html">DASHBOARD</a></li>
-                        <li><a class="header-text" href="transaction.html">TRANSACTIONS</a></li>
-                        <li><a class="header-text" href="dashboard.html">SEND/REQUEST</a></li>
-                        <li><a class="header-text" href="transaction.html">HELP</a></li>
-                        <li><a class="header-text" href="dashboard.html">FEATURES</a>
-                            <select class="header-text" name="features" id="features" ></select>
-                        </li>
-                        
-                        <li>
-                            <a class="header-text" href="transaction.html">PAGES</a>
-                        <select class="header-text" name="pages" id="pages" ></select>
-                        </li>
-                    </ul>
+                        <img class="menu-icon" src="icons/menu_icon.png" alt="profile">
+                        <ul class="hidden-menu">
+                            <li><a href="index.html">DASHBOARD</a></li>
+                            <li><a href="transaction.html">TRANSACTIONS</a></li>
+                            <li><a href="dashboard.html">SEND/REQUEST</a></li>
+                            <li><a href="transaction.html">HELP</a></li>
+                            <li><a href="dashboard.html">FEATURES</a>
+                                <select name="features" id="features" ></select>
+                            </li>
+                            
+                            <li>
+                                <a href="transaction.html">PAGES</a>
+                            <select name="pages" id="pages" ></select>
+                            </li>
+                        </ul>
                     </div>
                     <div class="top-nav-div">
-                        <a class="header_text" href="index.html">DASHBOARD</a>
-                        <a class="header_text" href="transaction.html">TRANSACTIONS</a>
-                        <a class="header_text" href="dashboard.html">SEND/REQUEST</a>
-                        <a class="header_text" href="transaction.html">HELP</a>
-                        <a class="header_text" href="dashboard.html">FEATURES</a>
-                        <select class="header_text" name="features" id="features" ></select>
-                        <a class="header_text" href="transaction.html">PAGES</a>
-                        <select class="header_text" name="pages" id="pages" ></select>
+                        <a href="index.html">DASHBOARD</a>
+                        <a href="transaction.html">TRANSACTIONS</a>
+                        <a href="dashboard.html">SEND/REQUEST</a>
+                        <a href="transaction.html">HELP</a>
+                        <a href="dashboard.html">FEATURES</a>
+                        <select name="features" id="features" ></select>
+                        <a class="header-text" href="transaction.html">PAGES</a>
+                        <select name="pages" id="pages" ></select>
                     </div>
                 </div>
                 <div class="header-right-div">
-                    <select name="select" id="en">
-                        <option class="select-option" value="English">EN</option>
-                        <option value="English">TA</option>
-                        <option value="English">HI</option>
-                        <option value="English">TE</option>
-                    </select>
+                    <div class="select-lang">
+                        En <select name="" id=""></select>
+                        <ul class="hidden-list1">
+                        <div class="profile-details-dropdown-head">
+                            <li><a href="">English</a></li>
+                            <li><a href="">Tamil</a></li>
+                            <li><a href="">Telugu</a></li>
+                            <li><a href="">Malayalam</a></li>
+                            <li><a href="">French</a></li>
+                        </div>
+                    </ul>
+                    </div>
                     <div class="notification-div">
-                        <img class="img" src="icons/bell.png" alt="Notification" height="20px">
+                        <img class="img-notifi" src="icons/bell.png" alt="Notification">
+                        <span class="notification-number">3</span>
                         <ul class="hidden-notification">
                             <div class="dropdown-top"><li><p>Notificaion(3)</p></li></div>
                             <div class="profile-details-dropdown-head">
-                                <li><a class="profile-details-dropdown" href="">My profile</a></li>
-                                <li><a class="profile-details-dropdown" href="">Security</a></li>
-                                <li><a class="profile-details-dropdown" href="">Payment Methods</a></li>
-                                <li><a class="profile-details-dropdown" href="">Notification</a></li>
+                                <div class="notifications">
+                                    <img src="icons/bell.png" alt="bell" class="notification-bell-icon">
+                                    <div  class="notification-text">
+                                        <p> A new digital FIRC document is available for you to download </p>
+                                        <label for="" class="notification-date">22 Jul 2021</label>
+                                    </div>
+                                </div>
+                                <div class="notifications">
+                                    <img src="icons/bell.png" alt="bell" class="notification-bell-icon">
+                                    <div  class="notification-text">
+                                        <p> A new digital FIRC document is available for you to download </p>
+                                        <label for="" class="notification-date">22 Jul 2021</label>
+                                    </div>
+                                </div>
+                                <div class="notifications">
+                                    <img src="icons/bell.png" alt="bell" class="notification-bell-icon">
+                                    <div  class="notification-text">
+                                        <p> A new digital FIRC document is available for you to download </p>
+                                        <label for="" class="notification-date">22 Jul 2021</label>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="profile-details-dropdown-head">
-                                <li><a class="profile-details-dropdown" href="">Need Help</a></li>
-                                <li><a class="profile-details-dropdown" href="">Sign Out</a></li>
+                            <div class="profile-details-dropdown-head1">
+                                <a href="" class="see-all-notification">See all Notifications</a>
                             </div>
                         </ul>
                     </div>
                     <div class="img-div">
-                        <img class="profile-img" id="profile_img" src="icons/profile.png" alt="profile" >
+                        <img class="profile-img" id="profile-img" src="icons/profile_thumb.jpg" alt="profile" >
                     <ul class="hidden-list">
                         <div class="dropdown-top"><li><p>Hi, Smith Rhodes</p></li></div>
                         <div class="profile-details-dropdown-head">
-                            <li><a class="profile-details-dropdown" href="">My profile</a></li>
-                            <li><a class="profile-details-dropdown" href="">Security</a></li>
-                            <li><a class="profile-details-dropdown" href="">Payment Methods</a></li>
-                            <li><a class="profile-details-dropdown" href="">Notification</a></li>
+                            <li><a href="">My profile</a></li>
+                            <li><a href="">Security</a></li>
+                            <li><a href="">Payment Methods</a></li>
+                            <li><a href="">Notification</a></li>
                         </div>
                         <div class="profile-details-dropdown-head">
-                            <li><a class="profile-details-dropdown" href="">Need Help</a></li>
-                            <li><a class="profile-details-dropdown" href="">Sign Out</a></li>
+                            <li><a href="">Need Help</a></li>
+                            <li><a href="">Sign Out</a></li>
                         </div>
                     </ul>
                     </div>
@@ -98,12 +121,20 @@
         </div>
         <div class="dashboard-main">
             <div class="dashboard-left-div">
-                <div class="dashboard-profile-div">                   
-                        <img class="profile-img1" src="icons/profile.png" alt="profile">
+                <div class="dashboard-profile-div">
+                    <img class="profile-img1" src="icons/profile_thumb.jpg" alt="profile">               
+                        <div class="tooltip-div">
+                            <span class="tooltip-edit-img1">Change Profile Picture</span>
+                            <img src="icons/camera_icon.png" alt="camera" class="edit-page-edit-profile">
+                        </div>
+                        
                         <p class="user-name">Hello, Smith Rhodes</p>
-                        <button id="edit-button">
-                            <img class="edit-button-img" src="icons/edit_icon.png" alt="edit_icon" height="20px">
-                        </button>
+                        <div class="tooltip">
+                            <span class="tooltiptext1">Edit Profile</span>
+                            <button id="edit-button" onclick = "window.location.href='edit.html';"> 
+                                <img class="edit-icon" src="icons/edit_icon.png" alt="edit-icon">
+                            </button>
+                        </div>
                 </div>
                 <div class="dashboard-amount-div">
                     <div class="dashboard-amount-top-div">
@@ -178,7 +209,7 @@
                     <div class="edit-details-data">
                         <div class="edit-details-name">
                             <p class="edit-details-data-left">Account Status:</p>
-                            <span class="edit-details-data-right "><i class="fas fa-check-circle"></i> <p class="green_bg">Active</p></span>
+                            <span class="edit-details-data-right "><i class="fas fa-check-circle"></i> <p class="green-bg"><img src="icons/active_icon.png" alt="" height="20px"> Active</p></span>
                         </div>
                     </div>
                 </div>
@@ -190,7 +221,7 @@
                     <div class="edit-details-data">
                         <div class="edit-details-name">
                             <p class="edit-details-data-left">Email ID:</p>
-                            <p class="edit-details-data-right">smithrhodes1982@gmail.com</p>
+                            <p class="edit-details-data-right">smithrhodes1982@gmail.com <span class="color-blue">Primary</span></p>
                         </div>
                     </div>
                     <div class="edit-details-data">
@@ -209,7 +240,7 @@
                     <div class="edit-details-data">
                         <div class="edit-details-name">
                             <p class="edit-details-data-left">Mobile:</p>
-                            <p class="edit-details-data-right">+1 202-555-0125</p>
+                            <p class="edit-details-data-right">+1 202-555-0125 <span class="color-blue">Primary</span></p>
                         </div>
                     </div>
                     <div class="edit-details-data">
@@ -226,23 +257,23 @@
         <footer class="footer-div">
             <div class="footer-div-top">
                 <div class="footer-left-top">
-                    <a class="footer-left-top-text" href="">About Us</a>
-                    <a class="footer-left-top-text" href="">Support</a>
-                    <a class="footer-left-top-text" href="">Help</a>
-                    <a class="footer-left-top-text" href="">Careers</a>
-                    <a class="footer-left-top-text" href="">Affiliate</a>
-                    <a class="footer-left-top-text" href="">Fees</a>
+                    <a href="">About Us</a>
+                    <a href="">Support</a>
+                    <a href="">Help</a>
+                    <a href="">Careers</a>
+                    <a href="">Affiliate</a>
+                    <a href="">Fees</a>
                 </div>
                 <div class="footer-right-top">
-                    <button class="social-logo"><img src="icons/facebook_icon.png" alt="f" height="20px"></button>
-                    <button class="social-logo"><img src="icons/twitter_icon.png" alt="f" height="20px"></button>
-                    <button class="social-logo"><img src="icons/google_icon.png" alt="f" height="20px"></button>
-                    <button class="social-logo"><img src="icons/youtube_icon.png" alt="f" height="20px"></button>
+                    <button><img src="icons/facebook_icon.png" alt="f"></button>
+                    <button><img src="icons/twitter_icon.png" alt="f"></button>
+                    <button><img src="icons/google_icon.png" alt="f"></button>
+                    <button><img src="icons/youtube_icon.png" alt="f"></button>
                 </div>
             </div>
             <div class="footer-div-bottom">
                 <div>
-                    <p class="copuright-text">Copyright &#169; 2022 <a class="copyright-link" href="index.html">Payyed</a>. All Rights Reserved.</p>
+                    <p class="copyright-text">Copyright &#169; 2022 <a class="copyright-link" href="index.html">Payyed</a>. All Rights Reserved.</p>
                 </div>
                 <div>
                     <a href="">Security</a>
